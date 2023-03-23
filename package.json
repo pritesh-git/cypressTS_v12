@@ -1,0 +1,14 @@
+{
+  "name": "cypress_typescript",
+  "version": "12.8.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "cy:e2e": "cypress open",
+    "cy:headless": "cypress run"
+  }
+}
